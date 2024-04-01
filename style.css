@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:  #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+#characters-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.character-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: white;
+  width: 80%;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.attribute {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.character-detail {
+  margin: 5px;
+}
